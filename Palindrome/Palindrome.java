@@ -14,9 +14,10 @@ class Palindrome {
         System.out.println("Enter a word");
         String word = input.nextLine();
         StringBuilder sb = new StringBuilder(word);
-        sb.reverse();
+        sb.reverse().charAt(0);
         if(sb.equals(sb.reverse()))
         System.out.println("Palindrome");
+        else
         System.out.println("not palindrome");
 
 
